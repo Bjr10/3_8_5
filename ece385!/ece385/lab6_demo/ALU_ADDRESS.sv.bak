@@ -1,0 +1,7 @@
+module ALU(
+				input  logic offset,
+				input  logic pc_in,
+				output logic pc_out
+				
+			 );
+				pc_out= pc_in+offeset

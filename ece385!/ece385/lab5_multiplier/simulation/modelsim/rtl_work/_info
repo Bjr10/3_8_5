@@ -1,0 +1,256 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/ece385/lab5_multiplier/simulation/modelsim
+T_opt
+!s110 1519259529
+VAlkmiE6R^VOnlddM8K4BW0
+Z1 04 9 4 work testbench fast 0
+=1-1866da07b448-5a8e0f89-158-1924
+Z2 o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z3 tCvgOpt 0
+n@_opt
+Z4 OL;O;10.6a;65
+R0
+T_opt1
+Z5 !s110 1519260313
+V47]VO<H]E1oo5U`R:Fac=0
+R1
+=1-1866da07b448-5a8e1299-1ce-211c
+R2
+R3
+n@_opt1
+R4
+vDreg
+Z6 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+!s110 1519260311
+!i10b 1
+!s100 ]?eTINmle8Jh1bN?SNWTc1
+IHeSQn>KjcV^aKX@2K<KVK3
+Z7 VDg1SIo80bB@j0V0VzS_@n1
+!s105 Dreg_sv_unit
+S1
+R0
+w1518597434
+8U:/ece385/lab5_multiplier/Dreg.sv
+FU:/ece385/lab5_multiplier/Dreg.sv
+L0 1
+Z8 OL;L;10.6a;65
+r1
+!s85 0
+31
+Z9 !s108 1519260311.000000
+!s107 U:/ece385/lab5_multiplier/Dreg.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab5_multiplier|U:/ece385/lab5_multiplier/Dreg.sv|
+!i113 0
+Z10 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z11 !s92 -sv -work work +incdir+U:/ece385/lab5_multiplier -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R3
+n@dreg
+vfour_bit_ripple_adder
+R6
+Z12 !s110 1519260312
+!i10b 1
+!s100 8?QKIL>>7XUa?n]odNAH;0
+IK5biLbl3G8>J@<7<Q:l:_3
+R7
+Z13 !s105 adder_sv_unit
+S1
+R0
+Z14 w1518636398
+Z15 8U:/ece385/lab5_multiplier/adder.sv
+Z16 FU:/ece385/lab5_multiplier/adder.sv
+L0 28
+R8
+r1
+!s85 0
+31
+Z17 !s108 1519260312.000000
+Z18 !s107 U:/ece385/lab5_multiplier/adder.sv|
+Z19 !s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab5_multiplier|U:/ece385/lab5_multiplier/adder.sv|
+!i113 0
+R10
+R11
+R3
+vfull_addr
+R6
+R12
+!i10b 1
+!s100 >A<fQ5FOLj[b;QJDLMYP90
+IH^3V=fjWVC]_l73d;QSo53
+R7
+R13
+S1
+R0
+R14
+R15
+R16
+L0 45
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 0
+R10
+R11
+R3
+vHexDriver
+R6
+R12
+!i10b 1
+!s100 =R2i165HPJgkY;aA[TRmG3
+Ij=BKVAI9^jnk6LzI@z93A2
+R7
+!s105 hexdriver_sv_unit
+S1
+R0
+w1518366757
+8U:/ece385/lab5_multiplier/hexdriver.sv
+FU:/ece385/lab5_multiplier/hexdriver.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R17
+!s107 U:/ece385/lab5_multiplier/hexdriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab5_multiplier|U:/ece385/lab5_multiplier/hexdriver.sv|
+!i113 0
+R10
+R11
+R3
+n@hex@driver
+vreg_8
+R6
+R12
+!i10b 1
+!s100 <<eB_oHe4zC>W_`1BgL901
+I8=^<LEN8O]EbLcc>S9@DN3
+R7
+!s105 register_sv_unit
+S1
+R0
+w1518491422
+8U:/ece385/lab5_multiplier/register.sv
+FU:/ece385/lab5_multiplier/register.sv
+L0 50
+R8
+r1
+!s85 0
+31
+R9
+!s107 U:/ece385/lab5_multiplier/register.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab5_multiplier|U:/ece385/lab5_multiplier/register.sv|
+!i113 0
+R10
+R11
+R3
+vripple_adder
+R6
+R12
+!i10b 1
+!s100 XeWGF;aAmhAj7UgXif8J:0
+IeJUZCYB4BG]RPk@z>a?;61
+R7
+R13
+S1
+R0
+R14
+R15
+R16
+L0 1
+R8
+r1
+!s85 0
+31
+R17
+R18
+R19
+!i113 0
+R10
+R11
+R3
+vstate_flow
+R6
+R12
+!i10b 1
+!s100 0>m]4Pi8dzg4Ta6z5XG:E0
+I0KY2jQ2d>JbN<=Y]R[SF31
+R7
+!s105 lab5_multiplier_sv_unit
+S1
+R0
+w1519259903
+8U:/ece385/lab5_multiplier/lab5_multiplier.sv
+FU:/ece385/lab5_multiplier/lab5_multiplier.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R17
+!s107 U:/ece385/lab5_multiplier/lab5_multiplier.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab5_multiplier|U:/ece385/lab5_multiplier/lab5_multiplier.sv|
+!i113 0
+R10
+R11
+R3
+vtestbench
+R6
+R5
+!i10b 1
+!s100 Gk^HFYWK1Ncn904BKT>N;0
+IEWQ2XOz38DP@O8SB64KLj1
+R7
+!s105 test_bench_sv_unit
+S1
+R0
+w1519260093
+8U:/ece385/lab5_multiplier/test_bench.sv
+FU:/ece385/lab5_multiplier/test_bench.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R17
+!s107 U:/ece385/lab5_multiplier/test_bench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab5_multiplier|U:/ece385/lab5_multiplier/test_bench.sv|
+!i113 0
+R10
+R11
+R3
+vtoplevel
+R6
+R12
+!i10b 1
+!s100 ?c`;lno^@L=T0mTX`Vo[23
+Ih;BY4dHF=AKJ?T_V^Q_CQ0
+R7
+!s105 toplevel_sv_unit
+S1
+R0
+w1518638434
+8U:/ece385/lab5_multiplier/toplevel.sv
+FU:/ece385/lab5_multiplier/toplevel.sv
+L0 1
+R8
+r1
+!s85 0
+31
+R17
+!s107 U:/ece385/lab5_multiplier/toplevel.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab5_multiplier|U:/ece385/lab5_multiplier/toplevel.sv|
+!i113 0
+R10
+R11
+R3

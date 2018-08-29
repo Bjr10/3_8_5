@@ -1,0 +1,17 @@
+add wave -position end  sim:/testbench/aes/decry_state/KeyExpansion_counter
+add wave -position end  sim:/testbench/aes/decry_state/FinalRound_counter
+add wave -position end  sim:/testbench/aes/decry_state/State
+add wave -position end  sim:/testbench/aes/decry_state/Next_state
+add wave -position end  sim:/testbench/aes/AES_KEY
+add wave -position end  sim:/testbench/aes/key
+add wave -position end  sim:/testbench/aes/inv_addroundkey_enable
+add wave -position end  sim:/testbench/aes/inv_shiftrow_enable
+add wave -position end  sim:/testbench/aes/inv_mixcolumn_enable
+add wave -position end  sim:/testbench/aes/inv_subbyte_enable
+add wave -position end  sim:/testbench/aes/Initial_enable
+add wave -position end  sim:/testbench/aes/keyschedule
+add wave -position end  sim:/testbench/aes/key_out
+add wave -position end  sim:/testbench/aes/key_in
+add wave -position end  sim:/testbench/aes/inv_mixcolumn_out
+
+

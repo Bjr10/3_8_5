@@ -1,0 +1,87 @@
+Archive Project report for lab4_processor
+Wed Feb 07 13:29:15 2018
+Quartus II 64-Bit Version 15.0.2 Build 153 07/15/2015 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Wed Feb 07 13:29:15 2018 ;
+; Revision Name          ; lab4_processor                        ;
+; Top-level Entity Name  ; Processor                             ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory U:/ece385/logic_processor_4bit/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'U:/ece385/logic_processor_4bit/lab4_processor_jbai10_jhu41.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'lab4_processor.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/altera/15.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 525 megabytes
+    Info: Processing ended: Wed Feb 07 13:29:15 2018
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
+
+
++------------------------------------------------------+
+; Files Archived                                       ;
++------------------------------------------------------+
+; File Name                                            ;
++------------------------------------------------------+
+; c:/altera/15.0/quartus/bin64/assignment_defaults.qdf ;
+; compute.sv                                           ;
+; Control.sv                                           ;
+; HexDriver.sv                                         ;
+; lab4_processor.qpf                                   ;
+; lab4_processor.qsf                                   ;
+; Processor.sv                                         ;
+; Reg_4.sv                                             ;
+; Register_unit.sv                                     ;
+; Router.sv                                            ;
+; Synchronizers.sv                                     ;
+; testbench_8.sv                                       ;
++------------------------------------------------------+
+
+

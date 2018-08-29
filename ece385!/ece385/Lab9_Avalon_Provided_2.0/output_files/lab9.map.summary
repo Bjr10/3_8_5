@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Wed Apr 11 22:47:44 2018
+Quartus II 64-Bit Version : 15.0.2 Build 153 07/15/2015 SJ Full Version
+Revision Name : lab9
+Top-level Entity Name : lab9_top
+Family : Cyclone IV E
+Total logic elements : 7,582
+    Total combinational functions : 6,282
+    Dedicated logic registers : 2,875
+Total registers : 2875
+Total pins : 142
+Total virtual pins : 0
+Total memory bits : 126,080
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 1

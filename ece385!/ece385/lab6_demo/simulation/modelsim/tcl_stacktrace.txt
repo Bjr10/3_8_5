@@ -1,0 +1,7 @@
+Mon Feb 19 22:04:45 CST 2018
+Trace back: invalid command name ".main_pane.source.interior.cs.body.srcobj.sci"
+    while executing
+".main_pane.source.interior.cs.body.srcobj.sci mark set insert  "63.1""
+    ("after" script)
+  <2:C:/modeltech64_10.6a/win64/tk8.6/bgerror.tcl:106: ::tkerror {invalid command name ".main_pane.source.interior.cs.body.srcobj.sci"}
+  <1:eval:1: ::tk::dialog::error::bgerror {invalid command name ".main_pane.source.interior.cs.body.srcobj.sci"}

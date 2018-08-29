@@ -1,0 +1,23 @@
+Quartus II Archive log --	U:/ece385/logic_processor_4bit/lab4_processor_jbai10_jhu41.qarlog
+
+Archive:	U:/ece385/logic_processor_4bit/lab4_processor_jbai10_jhu41.qar
+Date:		Wed Feb 07 13:29:15 2018
+Quartus II 64-Bit		15.0.2 Build 153 07/15/2015 SJ Full Version
+
+	=========== Files Selected: ===========
+U:/ece385/logic_processor_4bit/Control.sv
+U:/ece385/logic_processor_4bit/HexDriver.sv
+U:/ece385/logic_processor_4bit/Processor.sv
+U:/ece385/logic_processor_4bit/Reg_4.sv
+U:/ece385/logic_processor_4bit/Register_unit.sv
+U:/ece385/logic_processor_4bit/Router.sv
+U:/ece385/logic_processor_4bit/Synchronizers.sv
+U:/ece385/logic_processor_4bit/compute.sv
+U:/ece385/logic_processor_4bit/lab4_processor.qpf
+U:/ece385/logic_processor_4bit/lab4_processor.qsf
+U:/ece385/logic_processor_4bit/testbench_8.sv
+c:/altera/15.0/quartus/bin64/assignment_defaults.qdf
+	======= Total: 12 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

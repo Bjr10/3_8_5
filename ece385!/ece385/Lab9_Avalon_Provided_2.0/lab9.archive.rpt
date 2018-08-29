@@ -1,0 +1,147 @@
+Archive Project report for lab9
+Wed Apr 04 12:38:38 2018
+Quartus II 64-Bit Version 15.0.2 Build 153 07/15/2015 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Archive Project Summary
+  3. Archive Project Messages
+  4. Files Archived
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus II License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------+
+; Archive Project Summary                                        ;
++------------------------+---------------------------------------+
+; Archive Project Status ; Successful - Wed Apr 04 12:38:38 2018 ;
+; Revision Name          ; lab9                                  ;
+; Top-level Entity Name  ; lab9_top                              ;
+; Family                 ; Cyclone IV E                          ;
++------------------------+---------------------------------------+
+
+
++--------------------------+
+; Archive Project Messages ;
++--------------------------+
+Info: File Set 'Source control' contains:
+    Info: Project source and settings files
+    Info: Automatically detected source files
+Info: Archive will store files relative to the closest common parent directory
+Info (13213): Using common directory U:/ece385/Lab9_Avalon_Provided_2.0/
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated archive 'U:/ece385/Lab9_Avalon_Provided_2.0/lab9_demo.qar'
+Info: ----------------------------------------------------------
+Info: ----------------------------------------------------------
+Info: Generated report 'lab9.archive.rpt'
+Info (23030): Evaluation of Tcl script c:/altera/15.0/quartus/common/tcl/apps/qpm/qar.tcl was successful
+Info: Quartus II 64-Bit Shell was successful. 0 errors, 0 warnings
+    Info: Peak virtual memory: 541 megabytes
+    Info: Processing ended: Wed Apr 04 12:38:38 2018
+    Info: Elapsed time: 00:00:10
+    Info: Total CPU time (on all processors): 00:00:02
+
+
++-------------------------------------------------------------------------------------------------------------+
+; Files Archived                                                                                              ;
++-------------------------------------------------------------------------------------------------------------+
+; File Name                                                                                                   ;
++-------------------------------------------------------------------------------------------------------------+
+; aes.h                                                                                                       ;
+; AES.sv                                                                                                      ;
+; avalon_aes_interface.sv                                                                                     ;
+; avalon_aes_interface_hw.tcl                                                                                 ;
+; embedded_system/synthesis/../../embedded_system.qsys                                                        ;
+; embedded_system/synthesis/../../embedded_system.sopcinfo                                                    ;
+; embedded_system/synthesis/../embedded_system.cmp                                                            ;
+; embedded_system/synthesis/embedded_system.debuginfo                                                         ;
+; embedded_system/synthesis/embedded_system.qip                                                               ;
+; embedded_system/synthesis/embedded_system.regmap                                                            ;
+; embedded_system/synthesis/embedded_system.v                                                                 ;
+; embedded_system/synthesis/submodules/altera_avalon_sc_fifo.v                                                ;
+; embedded_system/synthesis/submodules/altera_avalon_st_clock_crosser.v                                       ;
+; embedded_system/synthesis/submodules/altera_avalon_st_handshake_clock_crosser.v                             ;
+; embedded_system/synthesis/submodules/altera_avalon_st_pipeline_base.v                                       ;
+; embedded_system/synthesis/submodules/altera_merlin_arbitrator.sv                                            ;
+; embedded_system/synthesis/submodules/altera_merlin_burst_uncompressor.sv                                    ;
+; embedded_system/synthesis/submodules/altera_merlin_master_agent.sv                                          ;
+; embedded_system/synthesis/submodules/altera_merlin_master_translator.sv                                     ;
+; embedded_system/synthesis/submodules/altera_merlin_slave_agent.sv                                           ;
+; embedded_system/synthesis/submodules/altera_merlin_slave_translator.sv                                      ;
+; embedded_system/synthesis/submodules/altera_reset_controller.sdc                                            ;
+; embedded_system/synthesis/submodules/altera_reset_controller.v                                              ;
+; embedded_system/synthesis/submodules/altera_reset_synchronizer.v                                            ;
+; embedded_system/synthesis/submodules/avalon_aes_interface.sv                                                ;
+; embedded_system/synthesis/submodules/embedded_system_irq_mapper.sv                                          ;
+; embedded_system/synthesis/submodules/embedded_system_jtag_uart_0.v                                          ;
+; embedded_system/synthesis/submodules/embedded_system_mm_interconnect_0.v                                    ;
+; embedded_system/synthesis/submodules/embedded_system_mm_interconnect_0_avalon_st_adapter.v                  ;
+; embedded_system/synthesis/submodules/embedded_system_mm_interconnect_0_avalon_st_adapter_error_adapter_0.sv ;
+; embedded_system/synthesis/submodules/embedded_system_mm_interconnect_0_cmd_demux.sv                         ;
+; embedded_system/synthesis/submodules/embedded_system_mm_interconnect_0_cmd_demux_001.sv                     ;
+; embedded_system/synthesis/submodules/embedded_system_mm_interconnect_0_cmd_mux.sv                           ;
+; embedded_system/synthesis/submodules/embedded_system_mm_interconnect_0_cmd_mux_002.sv                       ;
+; embedded_system/synthesis/submodules/embedded_system_mm_interconnect_0_router.sv                            ;
+; embedded_system/synthesis/submodules/embedded_system_mm_interconnect_0_router_001.sv                        ;
+; embedded_system/synthesis/submodules/embedded_system_mm_interconnect_0_router_002.sv                        ;
+; embedded_system/synthesis/submodules/embedded_system_mm_interconnect_0_router_004.sv                        ;
+; embedded_system/synthesis/submodules/embedded_system_mm_interconnect_0_rsp_demux.sv                         ;
+; embedded_system/synthesis/submodules/embedded_system_mm_interconnect_0_rsp_demux_002.sv                     ;
+; embedded_system/synthesis/submodules/embedded_system_mm_interconnect_0_rsp_mux.sv                           ;
+; embedded_system/synthesis/submodules/embedded_system_mm_interconnect_0_rsp_mux_001.sv                       ;
+; embedded_system/synthesis/submodules/embedded_system_nios2_gen2_0.v                                         ;
+; embedded_system/synthesis/submodules/embedded_system_nios2_gen2_0_cpu.sdc                                   ;
+; embedded_system/synthesis/submodules/embedded_system_nios2_gen2_0_cpu.v                                     ;
+; embedded_system/synthesis/submodules/embedded_system_nios2_gen2_0_cpu_debug_slave_sysclk.v                  ;
+; embedded_system/synthesis/submodules/embedded_system_nios2_gen2_0_cpu_debug_slave_tck.v                     ;
+; embedded_system/synthesis/submodules/embedded_system_nios2_gen2_0_cpu_debug_slave_wrapper.v                 ;
+; embedded_system/synthesis/submodules/embedded_system_nios2_gen2_0_cpu_ociram_default_contents.mif           ;
+; embedded_system/synthesis/submodules/embedded_system_nios2_gen2_0_cpu_rf_ram_a.mif                          ;
+; embedded_system/synthesis/submodules/embedded_system_nios2_gen2_0_cpu_rf_ram_b.mif                          ;
+; embedded_system/synthesis/submodules/embedded_system_nios2_gen2_0_cpu_test_bench.v                          ;
+; embedded_system/synthesis/submodules/embedded_system_onchip_memory2_0.hex                                   ;
+; embedded_system/synthesis/submodules/embedded_system_onchip_memory2_0.v                                     ;
+; embedded_system/synthesis/submodules/embedded_system_SDRAM.v                                                ;
+; embedded_system/synthesis/submodules/embedded_system_SDRAM_PLL.v                                            ;
+; embedded_system/synthesis/submodules/embedded_system_sysid_qsys_0.v                                         ;
+; embedded_system/synthesis/submodules/embedded_system_timer_0.v                                              ;
+; hexdriver.sv                                                                                                ;
+; invaddroundkey.sv                                                                                           ;
+; InvMixColumns.sv                                                                                            ;
+; InvShiftRows.sv                                                                                             ;
+; KeyExpansion.sv                                                                                             ;
+; lab9.qpf                                                                                                    ;
+; lab9.qsf                                                                                                    ;
+; lab9.sdc                                                                                                    ;
+; lab9_assignment_defaults.qdf                                                                                ;
+; lab9_top.sv                                                                                                 ;
+; mux4.sv                                                                                                     ;
+; state.sv                                                                                                    ;
+; SubBytes.sv                                                                                                 ;
+; testbench.sv                                                                                                ;
++-------------------------------------------------------------------------------------------------------------+
+
+

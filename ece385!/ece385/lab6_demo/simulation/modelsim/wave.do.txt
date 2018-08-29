@@ -1,0 +1,9 @@
+add wave -position end  sim:/testbench/my_slc/state_controller/State
+add wave -position end  sim:/testbench/my_slc/d0/register_file/R0
+add wave -position end  sim:/testbench/my_slc/d0/register_file/R1
+add wave -position end  sim:/testbench/my_slc/d0/register_file/R2
+add wave -position end  sim:/testbench/my_slc/d0/register_file/R3
+add wave -position end  sim:/testbench/my_slc/d0/register_file/R4
+add wave -position end  sim:/testbench/my_slc/d0/register_file/R5
+add wave -position end  sim:/testbench/my_slc/d0/register_file/R6
+add wave -position end  sim:/testbench/my_slc/d0/register_file/R7

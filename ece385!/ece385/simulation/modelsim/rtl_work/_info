@@ -1,0 +1,170 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/ece385/simulation/modelsim
+T_opt
+!s110 1518667317
+V`;COCo3RY0<lg9cfLoIoC2
+04 9 4 work testbench fast 0
+=1-1866da08b557-5a850634-398-26e8
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+Z1 tCvgOpt 0
+n@_opt
+OL;O;10.6a;65
+vfour_bit_ripple_adder
+Z2 DXx6 sv_std 3 std 0 22 AD7iAPLo6nTIKk<N0eo=D3
+Z3 !s110 1518667315
+!i10b 1
+!s100 ggSF9JdX1kY0<4m_lX>ZQ3
+IMl1CjM:SmCcbZZ^><f@l<3
+Z4 VDg1SIo80bB@j0V0VzS_@n1
+Z5 !s105 ripple_adder_sv_unit
+S1
+R0
+Z6 w1517969340
+Z7 8U:/ece385/ece385sp16_lab4_adders/ripple_adder.sv
+Z8 FU:/ece385/ece385sp16_lab4_adders/ripple_adder.sv
+L0 23
+Z9 OL;L;10.6a;65
+r1
+!s85 0
+31
+Z10 !s108 1518667315.000000
+Z11 !s107 U:/ece385/ece385sp16_lab4_adders/ripple_adder.sv|
+Z12 !s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/ece385sp16_lab4_adders|U:/ece385/ece385sp16_lab4_adders/ripple_adder.sv|
+!i113 0
+Z13 o-sv -work work -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z14 !s92 -sv -work work +incdir+U:/ece385/ece385sp16_lab4_adders -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+R1
+vfull_addr
+R2
+R3
+!i10b 1
+!s100 MZ;BE<5e^^HZLFRlTc@2]1
+IVPMHJ5H:8GJDJKDE9d^zo3
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 40
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R1
+vHexDriver
+R2
+Z15 !s110 1518667316
+!i10b 1
+!s100 =R2i165HPJgkY;aA[TRmG3
+I25T98k2HozZjBKS<Gkn?b1
+R4
+!s105 HexDriver_sv_unit
+S1
+R0
+w1453932322
+8U:/ece385/ece385sp16_lab4_adders/HexDriver.sv
+FU:/ece385/ece385sp16_lab4_adders/HexDriver.sv
+L0 1
+R9
+r1
+!s85 0
+31
+Z16 !s108 1518667316.000000
+!s107 U:/ece385/ece385sp16_lab4_adders/HexDriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/ece385sp16_lab4_adders|U:/ece385/ece385sp16_lab4_adders/HexDriver.sv|
+!i113 0
+R13
+R14
+R1
+n@hex@driver
+vlab4_adders_toplevel
+R2
+R15
+!i10b 1
+!s100 [l@P<8ol1QERCIg9KkP[E2
+I4S2JYWg@>[SS`28K;EANk1
+R4
+!s105 lab4_adders_toplevel_sv_unit
+S1
+R0
+w1518665226
+8U:/ece385/ece385sp16_lab4_adders/lab4_adders_toplevel.sv
+FU:/ece385/ece385sp16_lab4_adders/lab4_adders_toplevel.sv
+L0 17
+R9
+r1
+!s85 0
+31
+R16
+!s107 U:/ece385/ece385sp16_lab4_adders/lab4_adders_toplevel.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/ece385sp16_lab4_adders|U:/ece385/ece385sp16_lab4_adders/lab4_adders_toplevel.sv|
+!i113 0
+R13
+R14
+R1
+vripple_adder
+R2
+R3
+!i10b 1
+!s100 bLB?3XPA7@<g^FKP<]0[43
+I5gTjf]NSzY:^l6@L1G9AD2
+R4
+R5
+S1
+R0
+R6
+R7
+R8
+L0 1
+R9
+r1
+!s85 0
+31
+R10
+R11
+R12
+!i113 0
+R13
+R14
+R1
+vtestbench
+R2
+R15
+!i10b 1
+!s100 H`Kb?iMRI:aLfQELhHiMV3
+I>=M5S]QTJgO2YjQSB_Imf1
+R4
+!s105 testbench_sv_unit
+S1
+R0
+w1517969065
+8U:/ece385/ece385sp16_lab4_adders/testbench.sv
+FU:/ece385/ece385sp16_lab4_adders/testbench.sv
+L0 1
+R9
+r1
+!s85 0
+31
+R16
+!s107 U:/ece385/ece385sp16_lab4_adders/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/ece385sp16_lab4_adders|U:/ece385/ece385sp16_lab4_adders/testbench.sv|
+!i113 0
+R13
+R14
+R1

@@ -1,0 +1,21 @@
+Quartus II Archive log --	U:/ece385/lab5_multiplier/lab5_multiplier.qarlog
+
+Archive:	U:/ece385/lab5_multiplier/lab5_multiplier.qar
+Date:		Wed Feb 14 14:10:47 2018
+Quartus II 64-Bit		15.0.2 Build 153 07/15/2015 SJ Full Version
+
+	=========== Files Selected: ===========
+U:/ece385/lab5_multiplier/Dreg.sv
+U:/ece385/lab5_multiplier/adder.sv
+U:/ece385/lab5_multiplier/hexdriver.sv
+U:/ece385/lab5_multiplier/lab5_multiplier.qpf
+U:/ece385/lab5_multiplier/lab5_multiplier.qsf
+U:/ece385/lab5_multiplier/lab5_multiplier.sv
+U:/ece385/lab5_multiplier/lab5_multiplier_assignment_defaults.qdf
+U:/ece385/lab5_multiplier/register.sv
+U:/ece385/lab5_multiplier/test_bench.sv
+U:/ece385/lab5_multiplier/toplevel.sv
+	======= Total: 10 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.

@@ -1,0 +1,488 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dU:/ece385/lab6_demo/simulation/modelsim
+T_opt
+!s110 1519099416
+VdRf=QUmK7Y__CC26knYYU3
+04 9 4 work testbench fast 0
+=1-1866da07b448-5a8b9e18-253-1158
+o-quiet -auto_acc_if_foreign -work work -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work +acc
+tCvgOpt 0
+n@_opt
+OL;O;10.6a;65
+R0
+vALU_LOGIC
+Z1 DXx6 sv_std 3 std 0 22 <EOTafDcUY:cQeO^ICn]m3
+Z2 !s110 1520477610
+!i10b 1
+!s100 VkJ?GbOMU6WCc3OQY0iaM1
+IF>mH9nLYoLCal>X7:JVnP2
+Z3 V`JN@9S9cnhjKRR_L]QIcM3
+!s105 ALU_LOGIC_sv_unit
+S1
+R0
+w1519441986
+8U:/ece385/lab6_demo/ALU_LOGIC.sv
+FU:/ece385/lab6_demo/ALU_LOGIC.sv
+L0 1
+Z4 OV;L;10.3d;59
+r1
+!s85 0
+31
+!s108 1520477610.268000
+!s107 U:/ece385/lab6_demo/ALU_LOGIC.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/ALU_LOGIC.sv|
+!i113 1
+Z5 o-sv -work work
+Z6 !s92 -sv -work work +incdir+U:/ece385/lab6_demo
+n@a@l@u_@l@o@g@i@c
+vbus
+R1
+Z7 !s110 1520477608
+!i10b 1
+!s100 mAHgcC8GfMKKMJ5fj3dFK2
+I?aQmW7gYMTV@aiOoo@]zl2
+R3
+!s105 bus_sv_unit
+S1
+R0
+w1519580069
+8U:/ece385/lab6_demo/bus.sv
+FU:/ece385/lab6_demo/bus.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1520477608.100000
+!s107 U:/ece385/lab6_demo/bus.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/bus.sv|
+!i113 1
+R5
+R6
+vCC
+R1
+R2
+!i10b 1
+!s100 faC]boVO4ecT;CMzf>`1M0
+I@cSZH?]T@8Uh?X2U8dO?91
+R3
+!s105 CC_sv_unit
+S1
+R0
+w1519794181
+8U:/ece385/lab6_demo/CC.sv
+FU:/ece385/lab6_demo/CC.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1520477610.081000
+!s107 U:/ece385/lab6_demo/CC.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/CC.sv|
+!i113 1
+R5
+R6
+n@c@c
+vdatapath
+R1
+Z8 !s110 1520477607
+!i10b 1
+!s100 enVL=7O451P:j=jle`g823
+IPcGgD@>hTNhgAMFgelB2e2
+R3
+!s105 datapath_sv_unit
+S1
+R0
+w1519706040
+8U:/ece385/lab6_demo/datapath.sv
+FU:/ece385/lab6_demo/datapath.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1520477607.741000
+!s107 U:/ece385/lab6_demo/datapath.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/datapath.sv|
+!i113 1
+R5
+R6
+vHexDriver
+R1
+R7
+!i10b 1
+!s100 A89PE:z4001FXEa5_3CF:0
+I2HA@Z_IBE?]6ZTE[]9RF21
+R3
+!s105 hexdriver_sv_unit
+S1
+R0
+w1519007827
+8U:/ece385/lab6_demo/hexdriver.sv
+FU:/ece385/lab6_demo/hexdriver.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1520477608.802000
+!s107 U:/ece385/lab6_demo/hexdriver.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/hexdriver.sv|
+!i113 1
+R5
+R6
+n@hex@driver
+vISDU
+R1
+R8
+!i10b 1
+!s100 ZF>dZLHIPCfmgbQ`Domk61
+I11B^BL:1[jjhmJ`o2_ZSd1
+R3
+!s105 ISDU_sv_unit
+S1
+R0
+w1519713298
+8U:/ece385/lab6_demo/ISDU.sv
+FU:/ece385/lab6_demo/ISDU.sv
+Z9 L0 19
+R4
+r1
+!s85 0
+31
+!s108 1520477607.554000
+!s107 U:/ece385/lab6_demo/ISDU.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/ISDU.sv|
+!i113 1
+R5
+R6
+n@i@s@d@u
+vMem2IO
+R1
+R8
+!i10b 1
+!s100 aChFEkE@cc]jlXeig`iRV3
+IknS4B@bn86h]d9S=hkGjm2
+R3
+!s105 Mem2IO_sv_unit
+S1
+R0
+Z10 w1506377992
+8U:/ece385/lab6_demo/Mem2IO.sv
+FU:/ece385/lab6_demo/Mem2IO.sv
+Z11 L0 16
+R4
+r1
+!s85 0
+31
+!s108 1520477607.257000
+!s107 U:/ece385/lab6_demo/Mem2IO.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/Mem2IO.sv|
+!i113 1
+R5
+R6
+n@mem2@i@o
+vMux_2
+R1
+R7
+!i10b 1
+!s100 7CJIoA^z^4YUD?LT>32<z3
+IX9Q052gioV>kzI?17U;QL3
+R3
+!s105 mux_module_sv_unit
+S1
+R0
+w1519523876
+8U:/ece385/lab6_demo/mux_module.sv
+FU:/ece385/lab6_demo/mux_module.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1520477608.256000
+!s107 U:/ece385/lab6_demo/mux_module.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/mux_module.sv|
+!i113 1
+R5
+R6
+n@mux_2
+vMux_3
+R1
+R7
+!i10b 1
+!s100 4[8kXTWYH`j9H?M31]Q2Y0
+IBB;;j5547o>Q?AEZBTW3a2
+R3
+!s105 mux_3_sv_unit
+S1
+R0
+w1519696697
+8U:/ece385/lab6_demo/mux_3.sv
+FU:/ece385/lab6_demo/mux_3.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1520477608.630000
+!s107 U:/ece385/lab6_demo/mux_3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/mux_3.sv|
+!i113 1
+R5
+R6
+n@mux_3
+vMux_4
+R1
+R7
+!i10b 1
+!s100 I;B4m`]cVL0R<6Be0z=AB1
+IYOJYamV;IH5F^Y1Q5PZ:K2
+R3
+!s105 mux_4_sv_unit
+S1
+R0
+w1519518532
+8U:/ece385/lab6_demo/mux_4.sv
+FU:/ece385/lab6_demo/mux_4.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1520477608.443000
+!s107 U:/ece385/lab6_demo/mux_4.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/mux_4.sv|
+!i113 1
+R5
+R6
+n@mux_4
+vreg_file
+R1
+Z12 !s110 1520477609
+!i10b 1
+!s100 _i3:?TW6gdEcD@N>gGA7i2
+ILU8W3ZAXG>odXFg9HUmaK1
+R3
+!s105 Real_reg_file_sv_unit
+S1
+R0
+w1519696708
+8U:/ece385/lab6_demo/Real_reg_file.sv
+FU:/ece385/lab6_demo/Real_reg_file.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1520477609.192000
+!s107 U:/ece385/lab6_demo/Real_reg_file.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/Real_reg_file.sv|
+!i113 1
+R5
+R6
+vreg_unit
+R1
+R8
+!i10b 1
+!s100 S:JN<?]iE52Q5_a5Qj2Gl2
+IGV]Tz[Sz^LhYbcBMN^FId2
+R3
+!s105 regis_file_sv_unit
+S1
+R0
+w1519199404
+8U:/ece385/lab6_demo/regis_file.sv
+FU:/ece385/lab6_demo/regis_file.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1520477607.912000
+!s107 U:/ece385/lab6_demo/regis_file.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/regis_file.sv|
+!i113 1
+R5
+R6
+vSEXT_11
+R1
+R12
+!i10b 1
+!s100 7AbX3o^Zd6AP]jCL8@a2A0
+Ik1mH?5<JX>`8U4<03?N0F0
+R3
+!s105 SEXT_sv_unit
+S1
+R0
+w1519518355
+8U:/ece385/lab6_demo/SEXT.sv
+FU:/ece385/lab6_demo/SEXT.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1520477609.738000
+!s107 U:/ece385/lab6_demo/SEXT.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/SEXT.sv|
+!i113 1
+R5
+R6
+n@s@e@x@t_11
+vSEXT_5
+R1
+R12
+!i10b 1
+!s100 3aM]d9P83od1eN]mD`2@30
+Ih:a3c[VHI6XmQeYkGSd:E1
+R3
+!s105 SEXT_5_sv_unit
+S1
+R0
+w1519518374
+8U:/ece385/lab6_demo/SEXT_5.sv
+FU:/ece385/lab6_demo/SEXT_5.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1520477609.894000
+!s107 U:/ece385/lab6_demo/SEXT_5.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/SEXT_5.sv|
+!i113 1
+R5
+R6
+n@s@e@x@t_5
+vSEXT_6
+R1
+R12
+!i10b 1
+!s100 PR]NH=WLMiKj5X3FMK`a<1
+IkNgg9`hHfWIngj=K08o^n2
+R3
+!s105 SEXT_6_sv_unit
+S1
+R0
+w1519518368
+8U:/ece385/lab6_demo/SEXT_6.sv
+FU:/ece385/lab6_demo/SEXT_6.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1520477609.426000
+!s107 U:/ece385/lab6_demo/SEXT_6.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/SEXT_6.sv|
+!i113 1
+R5
+R6
+n@s@e@x@t_6
+vSEXT_9
+R1
+R12
+!i10b 1
+!s100 YO>?LCLX8_KR=BBohDQJZ1
+I8E<lmXATGYOz3V?DMkb;m2
+R3
+!s105 SEXT_9_sv_unit
+S1
+R0
+w1519518364
+8U:/ece385/lab6_demo/SEXT_9.sv
+FU:/ece385/lab6_demo/SEXT_9.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1520477609.582000
+!s107 U:/ece385/lab6_demo/SEXT_9.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/SEXT_9.sv|
+!i113 1
+R5
+R6
+n@s@e@x@t_9
+vslc3
+R1
+R2
+!i10b 1
+!s100 ADIVzmg?P_QiOR^8<>4710
+IBDjimFYzm5B7LF1[jXgCN2
+R3
+!s105 slc3_sv_unit
+S1
+R0
+w1519795097
+8U:/ece385/lab6_demo/slc3.sv
+FU:/ece385/lab6_demo/slc3.sv
+R9
+R4
+r1
+!s85 0
+31
+!s108 1520477610.424000
+!s107 U:/ece385/lab6_demo/slc3.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/slc3.sv|
+!i113 1
+R5
+R6
+vtestbench
+R1
+R2
+!i10b 1
+!s100 CfGAk6:jDY>PX^:K@60bf0
+IkcfDEoWXZGL^5c2ME]Ekd1
+R3
+!s105 testbench_sv_unit
+S1
+R0
+w1520477419
+8U:/ece385/lab6_demo/testbench.sv
+FU:/ece385/lab6_demo/testbench.sv
+L0 1
+R4
+r1
+!s85 0
+31
+!s108 1520477610.627000
+!s107 U:/ece385/lab6_demo/testbench.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/testbench.sv|
+!i113 1
+R5
+R6
+vtristate
+R1
+R8
+!i10b 1
+!s100 c5mQSNYgK9f]9@5BiLEz30
+IYn>co6QbMY4MG@h=eiKco3
+R3
+!s105 tristate_sv_unit
+S1
+R0
+R10
+8U:/ece385/lab6_demo/tristate.sv
+FU:/ece385/lab6_demo/tristate.sv
+R11
+R4
+r1
+!s85 0
+31
+!s108 1520477607.039000
+!s107 U:/ece385/lab6_demo/tristate.sv|
+!s90 -reportprogress|300|-sv|-work|work|+incdir+U:/ece385/lab6_demo|U:/ece385/lab6_demo/tristate.sv|
+!i113 1
+R5
+R6

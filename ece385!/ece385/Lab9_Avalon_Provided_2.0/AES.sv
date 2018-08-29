@@ -1,0 +1,141 @@
+/************************************************************************
+AES Decryption Core Logic
+
+Dong Kai Wang, Fall 2017
+
+For use with ECE 385 Experiment 9
+University of Illinois ECE Department
+************************************************************************/
+
+module AES (
+	input	 logic CLK,
+	input  logic RESET,
+	input  logic AES_START,
+	output logic AES_DONE,
+	input  logic [127:0] AES_KEY,
+	input  logic [127:0] AES_MSG_ENC,
+	output logic [127:0]key	 
+	//input logic [31:0]now[16] 
+);
+logic [1407:0]keyschedule;
+logic [3:0]round,block;
+logic [127:0] inv_addroundkey_out;
+logic [127:0] inv_shiftrow_out;
+logic [127:0] inv_mixcolumn_out;
+logic [127:0] inv_subbyte_out;
+logic [31:0]register[4];
+logic [31:0]  key_out,key_in;
+logic  inv_addroundkey_enable;
+logic  inv_shiftrow_enable;
+logic  inv_mixcolumn_enable;
+logic  inv_subbyte_enable;
+//logic  update_enable;
+logic  Initial_enable;
+
+
+
+KeyExpansion keyex(.clk(CLK), 
+								  .Cipherkey(AES_KEY),
+								  .KeySchedule(keyschedule)
+									);
+									
+InvShiftRows invshift(.data_in(key),
+								  .data_out(inv_shiftrow_out)
+
+);
+
+Invaddroundkey invadd(
+									.key(key),
+									.round(round),
+									.keyschedule(keyschedule),
+									.key_out(inv_addroundkey_out)
+);
+
+InvSubBytes invsub_0 (.clk(CLK),  .in(key[( 0*8+7):( 0*8)]), .out(inv_subbyte_out[( 0*8+7):( 0*8)])   );
+InvSubBytes invsub_1 (.clk(CLK),  .in(key[( 1*8+7):( 1*8)]), .out(inv_subbyte_out[( 1*8+7):( 1*8)])   );
+InvSubBytes invsub_2 (.clk(CLK),  .in(key[( 2*8+7):( 2*8)]), .out(inv_subbyte_out[( 2*8+7):( 2*8)])   );
+InvSubBytes invsub_3 (.clk(CLK),  .in(key[( 3*8+7):( 3*8)]), .out(inv_subbyte_out[( 3*8+7):( 3*8)])   );
+InvSubBytes invsub_4 (.clk(CLK),  .in(key[( 4*8+7):( 4*8)]), .out(inv_subbyte_out[( 4*8+7):( 4*8)])   );
+InvSubBytes invsub_5 (.clk(CLK),  .in(key[( 5*8+7):( 5*8)]), .out(inv_subbyte_out[( 5*8+7):( 5*8)])   );
+InvSubBytes invsub_6 (.clk(CLK),  .in(key[( 6*8+7):( 6*8)]), .out(inv_subbyte_out[( 6*8+7):( 6*8)])   );
+InvSubBytes invsub_7 (.clk(CLK),  .in(key[( 7*8+7):( 7*8)]), .out(inv_subbyte_out[( 7*8+7):( 7*8)])   );								
+InvSubBytes invsub_8 (.clk(CLK),  .in(key[( 8*8+7):( 8*8)]), .out(inv_subbyte_out[( 8*8+7):( 8*8)])   );
+InvSubBytes invsub_9 (.clk(CLK),  .in(key[( 9*8+7):( 9*8)]), .out(inv_subbyte_out[( 9*8+7):( 9*8)])   );
+InvSubBytes invsub_10(.clk(CLK),  .in(key[(10*8+7):(10*8)]), .out(inv_subbyte_out[(10*8+7):(10*8)])   );
+InvSubBytes invsub_11(.clk(CLK),  .in(key[(11*8+7):(11*8)]), .out(inv_subbyte_out[(11*8+7):(11*8)])   );
+InvSubBytes invsub_12(.clk(CLK),  .in(key[(12*8+7):(12*8)]), .out(inv_subbyte_out[(12*8+7):(12*8)])   );
+InvSubBytes invsub_13(.clk(CLK),  .in(key[(13*8+7):(13*8)]), .out(inv_subbyte_out[(13*8+7):(13*8)])   );
+InvSubBytes invsub_14(.clk(CLK),  .in(key[(14*8+7):(14*8)]), .out(inv_subbyte_out[(14*8+7):(14*8)])   );
+InvSubBytes invsub_15(.clk(CLK),  .in(key[(15*8+7):(15*8)]), .out(inv_subbyte_out[(15*8+7):(15*8)])   );	
+
+ Mux_4 good(
+			 .A(key[31:0]),
+			 .B(key[63:32]),
+			 .C(key[95:64]),
+			 .D(key[127:96]),
+			 .Select_signal(block),
+			 .Bus_out(key_in)
+			
+				);
+				
+
+InvMixColumns invmix_0(.in(key_in), .out(key_out) );
+
+
+state decry_state(
+.Clk(CLK),
+.reset(RESET),
+.AES_START(AES_START),
+.AES_DONE(AES_DONE),
+.inv_addroundkey_enable(inv_addroundkey_enable),
+.inv_shiftrow_enable(inv_shiftrow_enable),
+.inv_mixcolumn_enable(inv_mixcolumn_enable),
+.inv_subbyte_enable(inv_subbyte_enable),
+//output logic  update_enable,
+.key_out(key_out),
+.key_in(key_in),
+.Initial_enable(Initial_enable),
+.round(round),
+.block(block),
+.register(register),
+.key(key),
+.inv_mixcolumn_out(inv_mixcolumn_out),
+.AES_MSG_DEC(AES_MSG_DEC)
+						);
+
+
+always_ff@ (posedge CLK)
+begin
+								if(Initial_enable )
+									begin
+											key <= AES_MSG_ENC;
+									end
+									
+								else if(inv_shiftrow_enable) //& update_enable)
+									begin
+											key <= inv_shiftrow_out;
+									end
+									
+									
+								else if(inv_addroundkey_enable)// & update_enable)
+									begin
+											key <= inv_addroundkey_out;
+									end
+									
+								else if(inv_mixcolumn_enable) //& update_enable)
+									begin
+											//key <= key^( {register[3],register[2],register[1],register[0]});\
+											key<= inv_mixcolumn_out;
+									end	
+								
+								else if( inv_subbyte_enable) //& update_enable)
+									begin
+											key <= inv_subbyte_out;
+									end
+								else
+									begin
+											key<=key;
+									end
+end
+
+endmodule

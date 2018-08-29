@@ -1,0 +1,14 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+U:/ece385/lab5_multiplier {U:/ece385/lab5_multiplier/Dreg.sv}
+vlog -sv -work work +incdir+U:/ece385/lab5_multiplier {U:/ece385/lab5_multiplier/register.sv}
+vlog -sv -work work +incdir+U:/ece385/lab5_multiplier {U:/ece385/lab5_multiplier/lab5_multiplier.sv}
+vlog -sv -work work +incdir+U:/ece385/lab5_multiplier {U:/ece385/lab5_multiplier/adder.sv}
+vlog -sv -work work +incdir+U:/ece385/lab5_multiplier {U:/ece385/lab5_multiplier/toplevel.sv}
+vlog -sv -work work +incdir+U:/ece385/lab5_multiplier {U:/ece385/lab5_multiplier/hexdriver.sv}
+

@@ -1,0 +1,30 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+U:/ece385/lab6_demo {U:/ece385/lab6_demo/tristate.sv}
+vlog -sv -work work +incdir+U:/ece385/lab6_demo {U:/ece385/lab6_demo/test_memory.sv}
+vlog -sv -work work +incdir+U:/ece385/lab6_demo {U:/ece385/lab6_demo/SLC3_2.sv}
+vlog -sv -work work +incdir+U:/ece385/lab6_demo {U:/ece385/lab6_demo/Mem2IO.sv}
+vlog -sv -work work +incdir+U:/ece385/lab6_demo {U:/ece385/lab6_demo/ISDU.sv}
+vlog -sv -work work +incdir+U:/ece385/lab6_demo {U:/ece385/lab6_demo/datapath.sv}
+vlog -sv -work work +incdir+U:/ece385/lab6_demo {U:/ece385/lab6_demo/regis_file.sv}
+vlog -sv -work work +incdir+U:/ece385/lab6_demo {U:/ece385/lab6_demo/bus.sv}
+vlog -sv -work work +incdir+U:/ece385/lab6_demo {U:/ece385/lab6_demo/mux_module.sv}
+vlog -sv -work work +incdir+U:/ece385/lab6_demo {U:/ece385/lab6_demo/mux_3.sv}
+vlog -sv -work work +incdir+U:/ece385/lab6_demo {U:/ece385/lab6_demo/hexdriver.sv}
+vlog -sv -work work +incdir+U:/ece385/lab6_demo {U:/ece385/lab6_demo/slc3.sv}
+vlog -sv -work work +incdir+U:/ece385/lab6_demo {U:/ece385/lab6_demo/memory_contents.sv}
+vlog -sv -work work +incdir+U:/ece385/lab6_demo {U:/ece385/lab6_demo/lab6_toplevel.sv}
+
+vlog -sv -work work +incdir+U:/ece385/lab6_demo {U:/ece385/lab6_demo/testbench.sv}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testbench
+
+add wave *
+view structure
+view signals
+run 1000 ns

@@ -1,0 +1,17 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -sv -work work +incdir+U:/ece385/Lab9_Avalon_Provided_2.0 {U:/ece385/Lab9_Avalon_Provided_2.0/SubBytes.sv}
+vlog -sv -work work +incdir+U:/ece385/Lab9_Avalon_Provided_2.0 {U:/ece385/Lab9_Avalon_Provided_2.0/InvShiftRows.sv}
+vlog -sv -work work +incdir+U:/ece385/Lab9_Avalon_Provided_2.0 {U:/ece385/Lab9_Avalon_Provided_2.0/InvMixColumns.sv}
+vlog -sv -work work +incdir+U:/ece385/Lab9_Avalon_Provided_2.0 {U:/ece385/Lab9_Avalon_Provided_2.0/AES.sv}
+vlog -sv -work work +incdir+U:/ece385/Lab9_Avalon_Provided_2.0 {U:/ece385/Lab9_Avalon_Provided_2.0/invaddroundkey.sv}
+vlog -sv -work work +incdir+U:/ece385/Lab9_Avalon_Provided_2.0 {U:/ece385/Lab9_Avalon_Provided_2.0/state.sv}
+vlog -sv -work work +incdir+U:/ece385/Lab9_Avalon_Provided_2.0 {U:/ece385/Lab9_Avalon_Provided_2.0/KeyExpansion.sv}
+vlib embedded_system
+vmap embedded_system embedded_system
+

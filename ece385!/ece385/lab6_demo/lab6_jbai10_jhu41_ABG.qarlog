@@ -1,0 +1,46 @@
+Quartus II Archive log --	U:/ece385/lab6_demo/lab6_jbai10_jhu41_ABG.qarlog
+
+Archive:	U:/ece385/lab6_demo/lab6_jbai10_jhu41_ABG.qar
+Date:		Wed Feb 28 12:22:06 2018
+Quartus II 64-Bit		15.0.2 Build 153 07/15/2015 SJ Full Version
+
+	=========== Files Selected: ===========
+U:/ece385/lab6_demo/ALU_ADDRESS.sv
+U:/ece385/lab6_demo/ALU_LOGIC.sv
+U:/ece385/lab6_demo/CC.sv
+U:/ece385/lab6_demo/ISDU.sv
+U:/ece385/lab6_demo/Mem2IO.sv
+U:/ece385/lab6_demo/Real_reg_file.sv
+U:/ece385/lab6_demo/SEXT.sv
+U:/ece385/lab6_demo/SEXT_5.sv
+U:/ece385/lab6_demo/SEXT_6.sv
+U:/ece385/lab6_demo/SEXT_9.sv
+U:/ece385/lab6_demo/SLC3_2.sv
+U:/ece385/lab6_demo/bus.sv
+U:/ece385/lab6_demo/datapath.sv
+U:/ece385/lab6_demo/hexdriver.sv
+U:/ece385/lab6_demo/lab6.qpf
+U:/ece385/lab6_demo/lab6.qsf
+U:/ece385/lab6_demo/lab6_assignment_defaults.qdf
+U:/ece385/lab6_demo/lab6_toplevel.sv
+U:/ece385/lab6_demo/memory_contents.sv
+U:/ece385/lab6_demo/mux_3.sv
+U:/ece385/lab6_demo/mux_4.sv
+U:/ece385/lab6_demo/mux_module.sv
+U:/ece385/lab6_demo/output_files/syncronizer.sv
+U:/ece385/lab6_demo/pc.sv
+U:/ece385/lab6_demo/regis_file.sv
+U:/ece385/lab6_demo/slc3.sv
+U:/ece385/lab6_demo/test_memory.sv
+U:/ece385/lab6_demo/testbench.sv
+U:/ece385/lab6_demo/tristate.sv
+	======= Total: 29 files to archive =======
+
+	================ Status: ===============
+All files archived successfully.
+
+
+******* Archived project restoration attempt on Wed Mar 07 21:00:17 2018
+Source archive file:	U:/ece385/lab6_demo/lab6_jbai10_jhu41_ABG.qar
+Archive was extracted into	U:/ece385/lab6_demo/lab6_jbai10_jhu41_ABG_restored/
+		 - successfully.
